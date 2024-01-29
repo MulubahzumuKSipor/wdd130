@@ -1,0 +1,59 @@
+@import url(https://fonts.google.com/specimen/Merienda?preview.text=Water&classification=Handwriting&vfonly=true);
+
+body{font-family: var(paragraph-font); max-width: 960px; padding: 20px;}
+
+:root{
+    --primary-color: #38A3A5;
+    --secondary-color: #22577A;
+    --Accent1-color: #57CC99;
+    --Accent2-color: #80ED99;
+    
+    --heading-font: 'Algerian', serif;
+    --paragraph-font: 'Merienda' handwriting;
+
+    --nav-background-color: rgb(232, 191, 6); 
+    --nav-link-color: ivory;
+    --nav-hover-link-color: skyblue;
+    --nav-hover-background-color: darkgreen;
+}
+
+
+body{
+    font: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+header{
+    padding: 20px;
+    background-color: var(--Accent1-color);
+}
+
+p{padding: 25px;}
+
+nav{
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a{
+    display: block;
+    color: var(--nav-hover-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover{
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}

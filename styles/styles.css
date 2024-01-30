@@ -11,7 +11,7 @@ h1{color: steelblue;}
 img{width: 150px;
     height: auto;
     border: 1px;
-    padding: 2px solid steelblue;
+    padding: 2px steelblue;
     box-shadow: 0 0 30px gray;}
 
 p{padding: 10px;}
@@ -26,9 +26,9 @@ aside{width: 20rem;
     color: #640404;
     text-align:center;}
 
-aside img{width: 200; height: auto;}
+aside img{width: 200px; height: auto;}
 
-main img{width: 150; height: auto; float: right;}
+main img{width: 150px; height: auto; float: right;}
 
 p{padding: 0;}
 

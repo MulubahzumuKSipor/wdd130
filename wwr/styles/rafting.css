@@ -1,0 +1,34 @@
+@import url(https://fonts.google.com/specimen/Lugrasimo?preview.text=Water&classification=Handwriting&stroke=Serif);
+
+body{font-family: var(paragraph-font); max-width: 960px; padding: 20px;}
+
+:root{
+    --primary-color: #38A3A5;
+    --secondary-color: #22577A;
+    --Accent1-color: #57CC99;
+    --Accent2-color: #80ED99;
+    
+    --heading-font: 'Algerian', serif;
+    --paragraph-font: 'Merienda' handwriting;
+
+    --nav-background-color: rgb(232, 191, 6); 
+    --nav-link-color: ivory;
+    --nav-hover-link-color: skyblue;
+    --nav-hover-background-color: darkgreen;
+}
+
+article{position: absolute;}
+
+h1,h2{
+    position: absolute;
+    font: var(--heading-font);
+    color: var(--primary-color);
+}
+
+p{padding: 15; color: blueviolet;}
+
+.hero{
+    display: block;
+    width: 100%;
+    height: auto;
+}

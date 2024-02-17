@@ -27,7 +27,7 @@ h1 {
     text-align: center;
     font-size: 1.5em;
     margin: 0.5rem;
-    color: #1F1481;
+    color: green;
 }
 
 form {
@@ -36,7 +36,7 @@ form {
     margin: 1rem auto;
     padding: 1rem;
     border: none;
-    background-color: #EEEEEE;
+    background-color: brown;
     border-radius: 0.5rem;
 }
 
@@ -65,7 +65,7 @@ li {
 }
 
 ol li::marker {
-    color: #1F1481;
+    color: darkgreen;
 }
 
 label, input, textarea, select, button {
@@ -104,10 +104,10 @@ button {
     width: 200px;
     margin: 0.5rem auto;
     font-size: 1em;
-    background-color: #1F1481;
+    background-color: green;
     border: none;
     border-radius: 0.5rem;
-    color: white;
+    color: brown;
     padding: 0.5rem;
 }
 
@@ -119,16 +119,6 @@ button:hover {
 
 select:hover {
     cursor: pointer;
-}
-
-footer {
-    text-align: center;
-    color: #1F1481;
-    font-size: 0.8em;
-    padding: 0.5rem;
-    border-top: 1px solid navy;
-    width: 500px;
-    margin: 0 auto;
 }
 
 .form-item1, .form-item2, .form-item3 {

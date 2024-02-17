@@ -35,7 +35,21 @@ form {
     border-radius: 0.5rem;
 }
 
-/* ol {
+footer {
+    padding-top: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+footer nav a img {
+    width: 100%;
+    height: auto;
+}
+footer nav a {
+    padding: 0.5rem;
+
+ol {
     margin: 0 auto;
     display: grid;
 }
@@ -47,7 +61,7 @@ li {
 
 ol li::marker {
     color: #1F1481;
-} */
+}
 
 label, input, textarea, select, button {
     font-family: 'Righteous', Arial, Helvetica, sans-serif;

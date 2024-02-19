@@ -18,10 +18,43 @@
                 <a href="trips.html">Trips</a>
                 <a href="contact.html">Contact</a> 
             </nav>
-        </header>
+        </header>   
         <main>
+            <section class="contactus">
+                <h1>Company Information</h1>
+                <div class="info">
+                    <p><span>Address:</span> 6 The Paddocks Crescent, Adamstown, Lucan, Dublin</p>
+                </div>
+                <div class="info">
+                    <p><span>Phone Number:</span> 123-456-789</p>
+                </div>
+                <div class="info">
+                    <p><span>Email:</span> abcd@gmail.com</p>
+                </div>
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2155.385185474403!2d-6.462103823753196!3d53.34722717465814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4867724b66ff1aed%3A0x75255d47f100a594!2s6%20The%20Paddocks%20Cres%2C%20Adamstown%2C%20Lucan%2C%20Co.%20Dublin%2C%20K78%20C524!5e1!3m2!1sen!2sie!4v1707420173556!5m2!1sen!2sie" 
+                    width="300" height="250" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </section>
+            <section class="employees">
+                <h2>Employees:</h2>
+                <div class="flex-box">
+                    <figure id="employee1">
+                        <img src="images/profile.jpg" alt="Company President">
+                        <figcaption>Company President</figcaption>
+                    </figure>
+                    <figure id="employee2">
+                        <img src="images/employee2.avif" alt="Vice President">
+                        <figcaption>Vice President</figcaption>
+                    </figure>
+                    <figure id="employee3">
+                        <img src="images/employee3.avif" alt="Operations Manager">
+                        <figcaption>Operations Manager</figcaption>
+                    </figure>
+                </div>      
+            </section>
             <section>
-                <h1>Send us a Feedback</h1>
+                <h2>Send Us a Message</h2>
                 <form>
                     <div class="userdetails">
                         <label for="username">Name:</label>
@@ -31,9 +64,22 @@
                         <label for="useremail">Email:</label>
                         <input type="email" id="useremail" name="useremail">
                     </div>
+                    <div class="radiodiv">
+                        <p>Message Purpose:</p>
+                        <input type="radio" id="gen-inq" name="message-purpose" value="General Inquiry">
+                        <label for="gen-inq">General Inquiry</label>
+                        <input type="radio" id="res-ques" name="message-purpose" value="Reservation Question">
+                        <label for="res-ques">Reservation Question</label>
+                        <input type="radio" id="web-sug" name="message-purpose" value="Website Suggestion">
+                        <label for="web-sug">Website Suggestion</label>
+                    </div>
                     <div class="textareadiv">
-                        <label for="message">Feedback</label>
+                        <label for="message">Message:</label>
                         <textarea id="message" name="message" rows="5"></textarea>
+                    </div>
+                    <div class="checkboxdiv">
+                        <label for="newsletter-sub">Please subscribe me to the monthly newsletter</label>
+                        <input type="checkbox" id="newsletter-sub" name="newsletter-sub">
                     </div>
                     <button type="submit">Submit Message</button>
                 </form>

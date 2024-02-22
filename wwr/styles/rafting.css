@@ -665,7 +665,7 @@ tbody > tr:nth-of-type(even) {
 }
 
 .offer-1{
-    display: grid;
+    display: block;
     align-items: center; 
     column-gap: 5px;
     background-color: beige;
@@ -684,3 +684,13 @@ tbody > tr:nth-of-type(even) {
     margin-right: auto;
     width: 50%;}
 
+.offer-1 span{
+    font-size: large;
+    font-weight: bold;
+}
+
+.trips, .review{
+    border: 5px brown;
+    background-color: blanchedalmond;
+    border-radius: 15px;
+}
